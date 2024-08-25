@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">💵LemonSqueezy as a payment in Nextjs</h1>
 
-## Getting Started
+## 📱 Demo
 
-First, run the development server:
+https://github.com/user-attachments/assets/b696c27f-a100-468b-9b2b-17574c089566
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Built with Amazing Tools
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ReacJs](https://react.dev/) - The library for web and native user interfaces
+- [TailwindCSS](https://www.mysql.com/) - low-level CSS framework that lets you build custom designs with utility classes and responsive variants.
+- [LemonSqueezy](https://www.lemonsqueezy.com/) - all-in-one platform for running your SaaS business
+- [Visual Studio Code](https://code.visualstudio.com/) - Code editing. Redefined.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✅ Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [x] **Once Time Payment Integration**
 
-## Learn More
+  - Implement basic payment flow for one-time payments using LemonSqueezy.
+  - Retrieve checkout URL and redirect users to complete the payment.
 
-To learn more about Next.js, take a look at the following resources:
+- [x] **Webhook Integration (Order Created)**
+  - Set up webhook handling focused on the `order_created` event.
+  - Process order data upon successful checkout.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] **Once Time Payment with Discounts**
+  - Implement support for products with discounts in the LemonSqueezy payment flow.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [ ] **Subscription Integration with Database**
+  - Connect LemonSqueezy subscriptions to a database (e.g., PostgreSQL) for user data storage and management.
 
-## Deploy on Vercel
+- [ ] **Webhook Updates for Subscriptions**
+  - Expand webhook handling to manage subscription events (e.g., subscription created, updated, canceled).
+  - Sync subscription data with the connected database for better tracking and management.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Explanation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Watch on my [Instagram](https://www.instagram.com/p/C9rPzLrzqmq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
