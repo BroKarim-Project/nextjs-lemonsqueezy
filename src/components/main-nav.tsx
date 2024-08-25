@@ -10,7 +10,7 @@ export default function MainNav({ navigation }: MobileNavProps) {
   return (
     <div className="hidden lg:flex   lg:gap-x-12">
       {navigation.map((item) => (
-        <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6">
+        <Link key={item.name} href={item.href} className="text-sm  font-semibold leading-6">
           {item.name}
         </Link>
       ))}
